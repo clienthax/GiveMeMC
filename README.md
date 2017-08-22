@@ -1,5 +1,5 @@
 # GiveMeMC [![](https://jitpack.io/v/JoeZwet/GiveMeMC.svg)](https://jitpack.io/#JoeZwet/GiveMeMC)
-Java implementation of the Minecraft api provided by [Yive](https://github.com/Yive) on <GameAPIs.org>.
+Java implementation of the Minecraft api provided by [Yive](https://github.com/Yive) on [GameAPIs.net](https://gameapis.net/).
 
 ## Download
 You can download **GMMC** using **Maven** or **Gradle** via [JitPack.io](https://jitpack.io/#JoeZwet/GiveMeMC).
