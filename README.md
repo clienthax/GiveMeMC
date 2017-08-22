@@ -1,5 +1,5 @@
 # GiveMeMC [![](https://jitpack.io/v/JoeZwet/GiveMeMC.svg)](https://jitpack.io/#JoeZwet/GiveMeMC)
-Java implementation of the Minecraft api provided by Yive
+Java implementation of the Minecraft api provided by [Yive](https://github.com/Yive) on <GameAPIs.org>.
 
 ## Download
 You can download **GMMC** using **Maven** or **Gradle** via [JitPack.io](https://jitpack.io/#JoeZwet/GiveMeMC).
@@ -29,19 +29,19 @@ Maven:
 
 Gradle:
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 ```
-	dependencies {
-	        compile 'com.github.JoeZwet:GiveMeMC:v1.0.0-SNAPSHOT'
-	}
+dependencies {
+	compile 'com.github.JoeZwet:GiveMeMC:v1.0.0-SNAPSHOT'
+}
 ```
 
 ## Examples
 Examples can be found in the examples folder located [here](https://github.com/JoeZwet/GiveMeMC/tree/master/src/main/java/examples)!
-**NOTE:** The **getExtensiveInfo.jar** example requires the server to have **enable-query** set to **true** in their **server.properties** (**config.yml** for BungeeCord servers).
+**NOTE:** The **getExtensiveInfo.jar** example requires the server to have **enable-query** set to **true** in it's **server.properties** (**config.yml** for BungeeCord servers).
