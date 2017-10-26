@@ -54,7 +54,7 @@ public class GiveMeMC {
 				try {
 					JSONObject p = readJsonFromUrl("https://use.gameapis.net/mc/player/profile/" + s);
 					players.add(new Player(p.getString("name"), p.getString("id"), p.getString("uuid_formatted"),
-							p.getJSONObject("properties_decoded").getJSONObject("textues").getJSONObject("SKIN")
+							p.getJSONObject("properties_decoded").getJSONObject("textures").getJSONObject("SKIN")
 									.getString("url")));
 				} catch (JSONException e) {
 					e.printStackTrace();
@@ -101,6 +101,6 @@ public class GiveMeMC {
 		JSONObject p = readJsonFromUrl("https://use.gameapis.net/mc/player/profile/" + uuid);
 
 		return new Player(p.getString("name"), p.getString("id"), p.getString("uuid_formatted"),
-				p.getJSONObject("properties_decoded").getJSONObject("textues").getJSONObject("SKIN").getString("url"));
+				p.getJSONObject("properties_decoded").getJSONObject("textures").getJSONObject("SKIN").getString("url"));
 	}
 }
